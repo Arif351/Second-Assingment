@@ -328,6 +328,69 @@ h3 {
 }
 
 /* -------------------section2 part 2 ipad quary end---------  */
+/* ________flag section--------  */
+.flag-section {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 10px;
+    margin-right: 5%;
+}
+
+.vs {
+    font-family: 'Open Sans';
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+.for {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vs h4 {
+    margin: 0 10px;
+}
+
+.vs h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.vs p {
+    text-align: center;
+}
+
+/* -----------button---- */
+.viewall {
+    font-family: 'Open Sans';
+    background-color: #DD0000;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 42%;
+    margin-right: 45%;
+    border-radius: 20px;
+}
+
+.viewall:hover {
+    transition: 1s;
+    padding: 10px 30px;
+}
+
+.viewall a {
+    font-family: 'Open Sans';
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+/* ---------footer section--- */
 footer {
     color: white;
     background-color: #161616;
