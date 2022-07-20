@@ -363,6 +363,21 @@ h3 {
     text-align: center;
 }
 
+/* ________flag section media quary--------  */
+@media only screen and (max-width:688px) {
+    .flag-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .flag-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 /* -----------button---- */
 .viewall {
     font-family: 'Open Sans';
@@ -388,6 +403,17 @@ h3 {
     text-decoration: none;
     color: white;
     text-align: center;
+}
+
+@media only screen and (max-width:688px) {
+
+    .viewall {
+        margin-left: 30%;
+        margin-right: 60%;
+        padding: 10px 60px;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* ---------footer section--- */
