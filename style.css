@@ -31,6 +31,11 @@
     margin-left: 180px;
 }
 
+
+.head-data p {
+    margin-bottom: 30px;
+}
+
 .head-data a {
     text-decoration: none;
     color: white;
@@ -38,6 +43,12 @@
         #DD0000;
     padding: 7px 10px;
     border-radius: 20px;
+
+}
+
+.head-data a:hover {
+    padding: 7px 30px;
+    transition: 1s;
 
 }
 
@@ -317,3 +328,138 @@ h3 {
 }
 
 /* -------------------section2 part 2 ipad quary end---------  */
+footer {
+    color: white;
+    background-color: #161616;
+    font-family: 'Open Sans';
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+footer hr {
+    width: 90%;
+    opacity: 40%;
+}
+
+.menuli {
+    display: flex;
+    margin-left: 25%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.menuli .privacy a {
+    color: beige;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.privacy a {
+    margin: 0 10px;
+}
+
+.privacy a:hover {
+    cursor: pointer;
+    color: aquamarine;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+
+footer h1 span:hover {
+    border-radius: 40px;
+    transition: 1s;
+    color: #DD0000;
+    padding: 0 15px;
+    background-color: rgb(255, 238, 143);
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sicons i {
+    color: aliceblue;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.sicons i:hover {
+    cursor: pointer;
+    color: rgb(108, 108, 248);
+
+    @media only screen and (max-width:688px) {
+        footer {
+            text-align: center;
+            width: 100%;
+        }
+
+        hr {
+            width: 90%;
+        }
+
+        h1 span {
+            justify-content: center;
+            align-items: center;
+        }
+
+        li .lii {
+            display: grid;
+            grid-template-rows: repeat(1, 1fr);
+            margin: 0 50px;
+        }
+    }
+}
+
+@media only screen and (max-width:688px) {
+    footer {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .menuli {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+
+    }
+
+    .menuli .privacy a {
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    footer {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .menuli {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .menuli .privacy a {
+        margin-bottom: 30px;
+
+    }
+}
